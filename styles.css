@@ -126,10 +126,61 @@ table td {
 	
 }
 
-.flex-item-5  {
+.flex-item-5 {
     transition: background-color 0.3s; /* Add transition for smooth effect */
 }
 
-.flex-item-5:hover  {
+.flex-item-5:hover {
     background-color: #007BFF; /* Change background color on hover */
+}
+
+.login-form{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+	margin: 20px;
+	background-color: #ddd;
+	border-radius: 10px
+}
+label {
+    display: block; 
+    margin: 10px; 
+}
+#username{
+	padding: 10px;
+	margin: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+#password{
+	padding: 10px;
+	margin: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+button[type="submit"]{
+	padding: 10px;
+	margin: 10px;
+	background-color: #4CAF50 ;
+	border-radius: 5px;
+	opacity: 0.5;
+}
+.flex-item-6{
+	margin: 10px;
+	background-color: #007BFF ;
+}
+.flex-item-6:hover{
+	text-decoration: underline;
+}
+button[type="add"]{
+	padding: 10px;
+	margin: 10px;
+	background-color: #4CAF50 ;
+	border-radius: 5px;
+}
+button[type="add"]:hover{
+	background-color: #45A049;
 }
