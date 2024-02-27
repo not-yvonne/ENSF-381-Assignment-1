@@ -39,7 +39,7 @@ div{
 .shop-now{
 	padding: 10px;
 	margin: 20px;
-	border-radius: 10px;
+	border-radius: 7px;
 	
 	
 }
@@ -66,3 +66,47 @@ footer{
 	color: white;
 	text-align: center;
 }	
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+	padding: 20px;
+	margin: 20px;
+	background-color: #ddd;
+}
+
+table {
+    width: 45%; /* Adjust width of each product item */
+    margin: 10px; /* Add margin between products */
+    background-color: #ddd;
+    border-radius: 10px;
+    padding: 10px;
+	
+	
+	
+}
+
+table img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px;
+	margin-bottom: 10px;
+	background-color: #f9f9f9;
+	transition: transform 0.3s;
+}
+
+table img:hover {
+    background-color: #ffffff; 
+}
+table td {
+    text-align: center;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px;
+	background-color: #f9f9f9
+}
+.price-text{
+	color: #007BFF;
+	font-weight: bold;
+}
