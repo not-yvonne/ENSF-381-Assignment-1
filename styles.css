@@ -110,3 +110,26 @@ table td {
 	color: #007BFF;
 	font-weight: bold;
 }
+.flex-item-4{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	padding: 20px;
+	margin: 20px;
+	background-color: #ddd;
+	border-radius: 10px
+}
+.contact-method{
+	padding: 0px;
+	margin: 0px;
+	background-color: #ddd;
+	
+}
+
+.flex-item-5  {
+    transition: background-color 0.3s; /* Add transition for smooth effect */
+}
+
+.flex-item-5:hover  {
+    background-color: #007BFF; /* Change background color on hover */
+}
